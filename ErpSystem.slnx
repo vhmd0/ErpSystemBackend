@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+  </Folder>
+  <Project Path="API/API.csproj" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="Application/Application.csproj" />
+  <Project Path="ErpSystem.AppHost/ErpSystem.AppHost.csproj" />
+  <Project Path="ErpSystem.ServiceDefaults/ErpSystem.ServiceDefaults.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+</Solution>
