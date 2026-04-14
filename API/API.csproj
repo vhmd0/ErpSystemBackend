@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\ErpSystem.ServiceDefaults\ErpSystem.ServiceDefaults.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
@@ -25,6 +26,12 @@
     <Content Include="..\.dockerignore">
       <Link>.dockerignore</Link>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.StackExchange.Redis" Version="13.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
   </ItemGroup>
 
 </Project>
