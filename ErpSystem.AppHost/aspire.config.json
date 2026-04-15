@@ -1,5 +1,16 @@
 {
   "appHost": {
     "path": "ErpSystem.AppHost.csproj"
+  },
+  "resources": {
+    "api": {
+      "path": "..\\API\\API.csproj"
+    },
+    "redis": {
+      "type": "redis.v1"
+    },
+    "DataBase": {
+      "type": "postgres.server.v1"
+    }
   }
 }
